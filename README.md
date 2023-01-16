@@ -13,3 +13,4 @@ Run:
 2. Train matryoshka and jian (in two terminals to run parallel): `python train.py {matryoshka,jian} EPOCHS` 
 3. Run the notebook `compare.ipynb`
 
+![](./matryoshka.jpeg)
