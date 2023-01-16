@@ -6,7 +6,7 @@ Simulated data: MNIST. Every other pixel is modality 1, remaining pixels are mod
 
 Approach: Fit autoencoder on modality 1. Then use one of two models:
 - Matryoshka: Freeze weights and extend autoencoder left and right by additional layers that map modality 2 to modality 1, and vice versa.  
-- Jian: Replace encoder with a new one that maps modality 1 to Z, freeze decoder, add additional layer at the end that maps modality 1 to modality 2.
+- Jian: Replace encoder with a new one that now maps modality 2 to Z, freeze decoder, add additional layer at the end that maps modality 1 to modality 2.
 
 Run:
 1. Train initial autoencoder: `python train.py base EPOCHS`
